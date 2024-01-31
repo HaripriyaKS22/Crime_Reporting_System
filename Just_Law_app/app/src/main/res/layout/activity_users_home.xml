@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    android:padding="20dp"
+    android:background="@drawable/a_b5"
+    tools:context=".Users_home" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="-120dp"
+        android:layout_marginTop="-170dp"
+        android:src="@drawable/logo" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="70dp">
+
+
+            <Button
+                android:id="@+id/btemc"
+                android:layout_width="383dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Emergency Contact"
+
+                android:background="@color/purple_700"/>
+
+            <Button
+                android:id="@+id/btmissing"
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Missing Person"
+                android:background="@color/purple_700" />
+
+            <Button
+        android:id="@+id/btcriminals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Wanted Criminals"
+                android:background="@color/purple_700"/>
+
+            <Button
+                android:id="@+id/btcomplaints"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@color/purple_700"
+                android:text="Complaints" />
+
+
+
+    
+    
+       <Button
+        android:id="@+id/btfeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Feedback"
+           android:background="@color/purple_700"/>
+
+
+        <Button
+            android:id="@+id/EMA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Send Emergency"
+            android:background="@color/purple_700"/>
+
+
+     <Button
+         android:id="@+id/btlogout"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="15dp"
+         android:text="Logout"
+         android:background="@color/purple_700"/>
+     
+   </LinearLayout>
+    </ScrollView>
+</LinearLayout>

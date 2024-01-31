@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p3"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".Vehicle_home">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="Home Page" />
+
+    <Button
+        android:id="@+id/btemergency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Emergency" />
+
+    <Button
+        android:id="@+id/btcriminals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Criminals" />
+
+    <Button
+        android:id="@+id/btlogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Logout" />
+</LinearLayout>

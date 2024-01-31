@@ -1,0 +1,92 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:background="@drawable/p3"
+    android:padding="20dp"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/p3"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="COMPLAINTS"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <Button
+            android:id="@+id/btcmp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:text="View Complaints" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_height="wrap_content"
+            android:text="Choose a File and Upload" />
+
+        <ImageButton
+            android:id="@+id/ibclick"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="10dp"
+            android:src="@android:drawable/btn_star" />
+
+        <TextView
+            android:id="@+id/tvut"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_height="wrap_content"
+            android:text="Not Important!!" />
+
+        <EditText
+            android:id="@+id/ettitle"
+            android:layout_width="match_parent"
+            android:hint="Title"
+            android:layout_marginTop="30dp"
+            android:background="#fff"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:ems="10" />
+
+        <EditText
+            android:id="@+id/etdes"
+            android:layout_width="match_parent"
+            android:hint="Description"
+            android:layout_marginTop="30dp"
+            android:background="#fff"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btupim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="#66A5BD"
+            android:layout_marginTop="15dp"
+            android:text="Send" />
+
+
+    </LinearLayout>
+</ScrollView>

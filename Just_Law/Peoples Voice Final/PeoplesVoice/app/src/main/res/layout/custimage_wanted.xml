@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="174dp"
+        android:layout_height="174dp"
+        android:src="@drawable/abc_vector_test" />
+
+    <TextView
+        android:id="@+id/tvcname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:textColor="@color/black"
+        android:text="TextView" />
+<!--    <TextView-->
+<!--        android:id="@+id/tvhname"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#fff"-->
+<!--        android:text="TextView" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/tvplace"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#fff"-->
+<!--        android:text="TextView" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/tvpincode"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#fff"-->
+<!--        android:text="TextView" />-->
+    <TextView
+        android:id="@+id/tvage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:textColor="@color/black"
+        android:text="TextView" />
+    <TextView
+        android:id="@+id/tvgender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:textColor="@color/black"
+        android:text="TextView" />
+    <TextView
+        android:id="@+id/tvstat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:textColor="@color/black"
+        android:text="TextView" />
+    <TextView
+        android:id="@+id/tvmost_wanted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:textColor="@color/black"
+        android:text="TextView" />
+    <TextView
+        android:id="@+id/tvcat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:textColor="@color/black"
+        android:text="TextView" />
+    <TextView
+        android:id="@+id/tvdes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:textColor="@color/black"
+        android:text="TextView" />
+
+</LinearLayout>

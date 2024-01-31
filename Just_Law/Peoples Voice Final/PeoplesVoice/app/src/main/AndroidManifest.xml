@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.peoplesvoice">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pp"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/pp"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PeoplesVoice"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Useraddemergency"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Vehicle_home"
+            android:exported="false" />
+        <activity android:name=".User_view_complaints" />
+        <activity android:name=".User_send_complaints" />
+        <activity android:name=".User_send_found_report" />
+        <activity android:name=".User_view_wanted_criminals" />
+        <activity android:name=".User_view_missing_persons" />
+        <activity android:name=".IPSetting">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".Users_home" />
+        <activity android:name=".User_registration" />
+        <activity android:name=".User_Send_feedback" />
+        <activity android:name=".User_view_emergecy_contact" />
+        <activity android:name=".MainActivity" />
+
+        <service android:name=".LocationService" />
+    </application>
+
+</manifest>

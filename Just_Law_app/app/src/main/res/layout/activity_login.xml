@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/a_b6"
+    android:gravity="center"
+    android:padding="20dp"
+    android:orientation="vertical" >
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:layout_width="166dp"-->
+<!--        android:layout_height="138dp"-->
+<!--        android:layout_marginTop="-100dp"-->
+<!--        app:srcCompat="@drawable/user" />-->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="LOGIN "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#3D57EA"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etunm"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#4B2735B0"
+        android:ems="10"
+        android:hint="Username"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="#4B2735B0"
+        android:ems="10"
+        android:hint="Passsword"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:requiresFadingEdge="vertical"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:background="#1B14EA"
+        android:text="LOGIN"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/tvuserreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="New User?"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
